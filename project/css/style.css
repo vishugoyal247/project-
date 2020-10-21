@@ -1,0 +1,58 @@
+/* This file is created by vishal (goalsachiever8@gmail.com)
+This project is only for coursera practice */
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    text-align: justify;
+   
+}
+body{
+  background-color: grey;
+}
+header h1
+{ 
+    background-color: khaki;
+    margin: 1.5rem 0;
+    padding: 0.9rem ;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration:underline;
+
+
+}
+section{
+    margin: 0.7rem;
+    display:flex ;
+    /* border: 3px solid red; */
+
+}
+section div{
+    margin: 1rem;
+    border:2px solid black;
+    background-color: rgb(76, 166, 240);
+}
+section div h3 {
+    /* width: 50px; */
+    padding: 10px;
+    background-color: rgb(247, 131, 95);
+    
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    float: right;
+}
+section div p{
+    padding: 20px;
+    clear: both;
+}
+
+/* *******Desktop******* */
+@media(min-width:992px)
+{}
+/* **********Tablet********* */
+@media(min-width:768px) and (max-width: 991px)
+{}
+/* ************Mobile*************** */
+@media(max-width:767px)
+{}
