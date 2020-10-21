@@ -12,9 +12,9 @@ body{
   background-color: grey;
 }
 header h1
-{ 
-    background-color: khaki;
-    margin: 1.5rem 0;
+{   color: white;
+    background-color:black;
+    margin: 1.5rem 5rem;
     padding: 0.9rem ;
     text-transform: uppercase;
     text-align: center;
@@ -24,7 +24,7 @@ header h1
 }
 section{
     margin: 0.7rem;
-    display:flex ;
+    /* display:flex ; */
     /* border: 3px solid red; */
 
 }
@@ -49,10 +49,24 @@ section div p{
 
 /* *******Desktop******* */
 @media(min-width:992px)
-{}
+{
+    section{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
 /* **********Tablet********* */
 @media(min-width:768px) and (max-width: 991px)
-{}
+{  .first{
+                float:left;
+          }
+   .second{
+               float: right;
+           }
+  .third{
+                clear: both;
+        }
+}
 /* ************Mobile*************** */
 @media(max-width:767px)
 {}
