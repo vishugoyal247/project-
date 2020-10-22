@@ -58,13 +58,24 @@ section div p{
 /* **********Tablet********* */
 @media(min-width:768px) and (max-width: 991px)
 {  .first{
-                float:left;
+                float:left; 
+                width: 46%;
+                height: 385;
+                margin:2%;
+               
           }
-   .second{
-               float: right;
+   .second{    float: right;
+               width: 46%;
+               height: 385;
+               margin:2%;
+               
            }
   .third{
                 clear: both;
+                width: 96%;
+                height: 385;
+                margin:2%;
+                
         }
 }
 /* ************Mobile*************** */
