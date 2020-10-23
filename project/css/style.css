@@ -1,7 +1,7 @@
 /* This file is created by vishal (goalsachiever8@gmail.com)
 This project is only for coursera practice */
 
-*{
+*{ 
     padding: 0px;
     margin:0px;
     box-sizing: border-box;
@@ -61,11 +61,11 @@ section div p{
                 float:left; 
                 width: 46%;
                 margin:2%;
-                height: 250px;
+                height: 350px;
           }
    .second{    float: right;
                width: 46%;
-               height: 250px;
+               height: 350px;
                margin:2%;
                
            }
