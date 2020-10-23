@@ -60,20 +60,19 @@ section div p{
 {  .first{
                 float:left; 
                 width: 46%;
-                height: 385;
                 margin:2%;
-               
+                height: 250px;
           }
    .second{    float: right;
                width: 46%;
-               height: 385;
+               height: 250px;
                margin:2%;
                
            }
   .third{
                 clear: both;
                 width: 96%;
-                height: 385;
+               
                 margin:2%;
                 
         }
